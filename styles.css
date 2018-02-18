@@ -1,0 +1,34 @@
+body { background: #d8e0de; /* Old browsers */
+background: -moz-linear-gradient(-45deg, #d8e0de 0%, #aebfbc 22%, #99afab 33%, #8ea6a2 50%, #829d98 67%, #4e5c5a 82%, #0e0e0e 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, #d8e0de 0%,#aebfbc 22%,#99afab 33%,#8ea6a2 50%,#829d98 67%,#4e5c5a 82%,#0e0e0e 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, #d8e0de 0%,#aebfbc 22%,#99afab 33%,#8ea6a2 50%,#829d98 67%,#4e5c5a 82%,#0e0e0e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d8e0de', endColorstr='#0e0e0e',GradientType=1 );background-attachment: fixed !important;background-size:cover !important; /* IE6-9 fallback on horizontal gradient */ }
+img { max-height:160px;margin:0 auto; }
+.products {background:#f0f0f0;padding:24px;text-align:center;min-height:490px;margin-bottom:24px;box-shadow:1px 1px 5px black;border:1px solid silver}
+.text-desc { margin-top:16px; }
+.row {  display: flex; flex-flow: row wrap; }
+.header { padding-top:200px;padding-bottom:200px;width:100%;background:url('https://cdn.dribbble.com/users/64815/screenshots/1518220/attachments/229248/shop_logo_big.png');background-size:18%;background-repeat:no-repeat;background-position:50% 50%; }
+.prideti { margin-top:10px;width:40%; }
+.form-control { width:100%; }
+.btn-info { margin-top:32px; }
+.tableas { z-index:450;width:20%;right:0;top:0;position:fixed;color:white;border:1px solid white;background:rgba(0,0,0, 0.5) }
+.glyphicon { font-size:22px; margin-left:10px;color:white;margin-top:10px }
+.kartas { text-align:center;text-transform:uppercase;letter-spacing:2px;font-size:16px;font-weight:bold;color:white;font-weight:bold; }
+.kk {text-align:right !important }
+.co { background:white;padding:5px;font-size:14px;margin-top:12px;float:right}
+tr { border:none !important }
+.kkz { text-align:left !important;font-size:32px; }
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {border:none} 
+.tableass { background:white;padding-top:50px;padding-bottom:50px; }
+.header2 { background:none}
+.pp { background:orange !important;padding:10px;color:white;float:right; }
+.bb {background:lightblue;color:white;padding:10px; }
+@media screen and (max-width:1468px) {
+.tableas {
+	width:100%;position:fixed;font-size:12px
+}
+.tableas h3 { font-size:12px;
+}
+}
+.de { text-align:left }
+.sortby { position:fixed;top:40%;left:0;padding:12px;font-size:16px;background:white;box-shadow:1px 1px 5px black}
